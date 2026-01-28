@@ -49,7 +49,7 @@ public class Main {
 
         int index = binarySearch(array, target);
         if (index !=-1) {
-            System.out.println("Число знайдено! Індекс: " + index);
+            System.out.println("Число знайдено! Індекс числа: " + target + " у відсортованому масиві: " + index);
         }
         else {
             System.out.println("Число не знайдено у масиві.");
